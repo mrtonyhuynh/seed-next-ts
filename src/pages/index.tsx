@@ -1,20 +1,20 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../assets/styles/Home.module.css";
+import Mailchimp from 'mailchimp-api-v3'
 
-// [ Static Generation] This function gets called at build time
-// export async function getStaticProps() {
-//   const title = 'Hello World'
-//   return {
-//     props: {
-//       title,
-//     },
-//   }
-// }
-
-export async function getServerSideProps() {
+export async function getServerSideProps(_context) {
   // Pass data to the page via props
   console.log('<< Run >>')
+  const mailchimp = new Mailchimp('');
+
+  await mailchimp.get('/lists')
+  .then(function (result) {
+    console.log('result', result)
+  })
+  .catch(function (err) {
+    console.log('err', err)
+  })
+
   return {
     props: {
       title: "Kamezoko",

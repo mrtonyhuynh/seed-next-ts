@@ -1,0 +1,15 @@
+{
+    "nav.login": "Login",
+    "nav.signUp": "Sign Up",
+    "homePage.slogan": "Find Nearby Hotels with videos",
+    "login.title": "Log in to your Customer account",
+    "signup.title": "Sign up to your Customer account",
+    "login.subTitle": "Lerem ipsum dolor sit amet, consectetur adipiscing clt. Eget habitant tellus.",
+    "signup.subTitle": "Lerem ipsum dolor sit amet, consectetur adipiscing clt. Eget habitant tellus.",
+    "login.btn": "Log in",
+    "signup.btn": "Sign Up",
+    "login.help": "Need Help?",
+    "login.phonenumber": "(877) 767-1233",
+    "signup.text1": "By continuing you agree to LocalLolo’s   ",
+    "signup.text2": "Terms of Service"
+  }

@@ -17,11 +17,11 @@ Những thứ thuộc về context là dữ liệu được coi là global như 
 Context API bao gồm một số khối xây dựng quan trọng:
 
 - context: đối tượng context là một đối tượng lưu giữ giá trị context hiện tại và có thể được đăng ký.
-- provider: là một componet của React cung cấp giá trị, nó lấy từ đối tượng context.
-- consumer: là một component có thể sử dụng giá trị của provider và có thể hiển thị giá trị.
+- context.Provider để tham chiếu tới đối tượng content (dùng trong JSX)
+- provider: là một componet của React cung cấp giá trị, nó lấy từ đối tượng context. (dùng trong JSX)
+- context.consumer: là một component có thể sử dụng giá trị của provider và có thể hiển thị giá trị. (dùng trong JSX)
 
 Đây là một phần lý thuyểt và có vẻ nó vẫn đang rất khó hiểu. Chúng ta hãy thử đi vào 1 ví dụ sau để hiểu rõ về nó hơn.
-
 
 ---
 
